@@ -1,0 +1,14 @@
+.blog-body
+{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;   
+}
+.blog-image
+{
+    width: 100%;
+    height: 6rem;
+    object-fit: cover;
+}
