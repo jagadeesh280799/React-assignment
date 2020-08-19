@@ -12,7 +12,7 @@ fetch('https://jsonplaceholder.typicode.com/photos?_page=1&_limit=10')
               <div class="shadow border rounded-lg">
                  <img class="blog-image" src="${blog.thumbnailUrl}">
                  <div class="blog-body p-3">
-                    <h5 class="blog-title text-truncate">${blog.title}</h5>
+                    <h5 class="font-weight-normal blog-title text-truncate">${blog.title}</h5>
                     <div class="d-flex justify-content-end">
                         <a href="#" class="btn btn-primary btn-sm">view post</a>
                     </div>
